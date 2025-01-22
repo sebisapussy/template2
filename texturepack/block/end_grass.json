@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/end_grass",
+		"particle": "block/end_grass"
+	},
+	"elements": [
+		{
+			"from": [7.5, 16, 6.5],
+			"to": [7.5, 21, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 18.66667, 7]},
+			"faces": {
+				"east": {"uv": [0, 2, 3, 7], "texture": "#0", "cullface": "up"},
+				"west": {"uv": [0, 2, 3, 7], "texture": "#0", "cullface": "up"}
+			}
+		},
+		{
+			"from": [6, 16, 8],
+			"to": [9, 21, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 20.25, 8]},
+			"faces": {
+				"north": {"uv": [0, 2, 3, 7], "texture": "#0", "cullface": "up"},
+				"south": {"uv": [0, 0, 3, 5], "texture": "#0", "cullface": "up"}
+			}
+		}
+	]
+}
